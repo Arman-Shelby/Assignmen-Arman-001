@@ -44,3 +44,19 @@
   align-items: center;
   text-decoration: none;
 }
+
+/* Action Section */
+.action-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+}
+.action-left {
+
+  max-width: 500px;
+}
+.action-right img {
+  max-width: 100%;
+  height: auto;
+}
