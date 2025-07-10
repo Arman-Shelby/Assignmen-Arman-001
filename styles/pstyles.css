@@ -8,6 +8,8 @@
 }
 .hero{
     background-image: url("../Assets/Hero-bg.png");
+    height: 698px;
+    
 }
 /* Button */
 .btn{
@@ -19,6 +21,15 @@
     text-decoration: none;
     color: white;
     
+}
+/* Banner */
+.banner {
+  text-align: center;
+  padding: 100px 20px 60px;
+}
+.banner h1 {
+  font-size: 64px;
+  margin-bottom: 45px;
 }
 
 
