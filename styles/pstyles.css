@@ -60,3 +60,30 @@
   max-width: 100%;
   height: auto;
 }
+
+/* Productive Users */
+.users-section {
+    height: 350px;
+    width: 1270px;
+    justify-content: center;
+    border-radius: 24px;
+  background-color: rgb(225, 225, 250) ;
+  text-align: center;
+  padding: 50px 20px;
+  margin:auto;
+}
+.stats {
+   
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+
+}
+.stats div h3 {
+    color: #4E47FF;
+  font-size: 80px;
+  font-weight: bold;
+}
+.stats div p{
+    font-size: 20px;
+}
