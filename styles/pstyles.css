@@ -87,3 +87,63 @@
 .stats div p{
     font-size: 20px;
 }
+
+/* Focus Section */
+.focus-section {
+  text-align: center;
+  padding: 20px 20px;
+}
+.focus-section h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.focus-section img {
+  width: 840px;
+  max-width: 90%;
+  margin: 20px 0;
+  border-radius: 48px;
+}
+
+
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 150px;
+}
+.contact-left h2 {
+  font-size: 97px;
+  font-weight: bold;
+  width: 515px;
+  height: 232px;
+}
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+form input,
+form textarea {
+  padding: 20px 70px;
+  border: 1px solid #ccc;
+  background-color: #D6DDED;
+  border-radius: 10px;
+  font-size: 1rem;
+  resize: vertical;
+}
+form button {
+  margin-top: 20px;
+  cursor: pointer;
+}
+form label{
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+}
